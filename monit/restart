@@ -1,0 +1,5 @@
+check directory restart with path /etc
+    restart program = "/sbin/shutdown -r now"
+
+
+

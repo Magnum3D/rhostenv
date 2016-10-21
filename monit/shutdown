@@ -1,0 +1,5 @@
+check directory shutdown with path /etc
+    stop program = "/sbin/shutdown -h now"
+
+
+
