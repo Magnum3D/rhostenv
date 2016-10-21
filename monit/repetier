@@ -1,0 +1,8 @@
+# Control service
+check process repetier matching RepetierServer
+   group pi
+   start program = "/bin/systemctl start RepetierServer"
+   stop program = "/bin/systemctl stop RepetierServer"
+   if 4 restarts within 20 cycles then timeout
+
+

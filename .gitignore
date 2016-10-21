@@ -1,0 +1,7 @@
+timelapse.log
+mjpg-streamer
+OctoPrint
+venv
+timelapse.flag
+*.deb
+
