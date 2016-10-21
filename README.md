@@ -6,7 +6,7 @@ Repetier Host environment for Raspberry PI and Magnum3D printers
   * RPI 3
   * ```sudo apt update```
   * ```sudo apt -y upgrade```
-  * ```sudo apt -y install mc monit minicom wget rpi-update git lscpu lshw cpuinfo```
+  * ```sudo apt -y install mc monit minicom wget rpi-update git lshw```
   
 ## Setup
 
