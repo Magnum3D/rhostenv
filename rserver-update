@@ -1,0 +1,13 @@
+#!/bin/bash
+
+RSF=Repetier-Server-0.80.0-Linux.deb
+RS=http://download.repetier.com/files/server/debian-armhf/$RSF
+
+if [ -f $RSF ]; then
+    echo Already downloaded...
+else
+    echo Downloading $RS
+    wget -O $RSF $RS
+fi
+
+sudo dpkg -i $RSF
