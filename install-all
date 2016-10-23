@@ -1,0 +1,8 @@
+#!/bin/bash
+sudo ln -s /home/pi/rhostenv/monit/* /etc/monit/conf.d/
+sudo update-rc.d monit enable
+sudo service monit stop
+sudo service monit start
+
+
+
